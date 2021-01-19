@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+<title>Minutes To Seconds Converter</title>
+</head>
+<body>
+<h1 class="title">Minutes To Seconds Converter</h1>
+<h1 class="subtitle">Enter your numbers.</h1>
+<div class="nums">
+<input class="num" type="number" id="mins" placeholder="Minutes">
+<button class="numbutton" onclick="convertnums()">Convert</button>
+<div class="num" type="number" id="secs" ><span class="secs">Seconds</span></div>
+</div>
+<script>
+function convertnums() {
+	var minsid = document.getElementById("mins");
+	var minsvalue = mins.value;
+	var minstosecs = parseInt(minsvalue) * parseInt(60);
+	document.querySelector(".secs").innerHTML=minstosecs;
+}
+</script>
+</body>
+</html>

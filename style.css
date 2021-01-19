@@ -1,0 +1,65 @@
+.title {
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+	text-align: center;
+	font-size: 4vw;
+}
+
+.subtitle {
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+	text-align: center;
+	font-size: 3vw;
+}
+
+body {
+	background-color: #ffe6b3;
+}
+
+.nums {
+	display: flex;
+	text-align: center;
+}
+
+.num {
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+	text-align: center;
+	font-size: 2vw;
+	border: none;
+	outline: none;
+	width: 40%;
+	height: 60px;
+	background-color: #fff;
+	margin: auto;
+	transition-duration: 0.5s;
+	line-height: 60px;
+}
+
+.num:hover {
+	height: 70px;
+	line-height: 70px;
+}
+
+::selection {
+	background-color: #dac59c;
+}
+
+.numbutton {
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+	text-align: center;
+	font-size: 2vw;
+	border: none;
+	outline: none;
+	width: 15%;
+	height: 60px;
+	background-color: #fff;
+	margin: auto;
+	transition-duration: 0.5s;
+	cursor: pointer;
+}
+
+.numbutton:hover {
+	height: 70px;
+}
